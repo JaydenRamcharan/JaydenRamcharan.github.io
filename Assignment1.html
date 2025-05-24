@@ -1,82 +1,85 @@
 <!doctype html>
 <html lang="en-US">
-  <meta charset="utf-8" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Application Letter</title> <!--
+    Name: Jayden Ramcharan
+    File: Assignment1.html
+    Date: 2025 May 13
+    A test website to test my basic HTML scripting skills
+    -->
+    <style>
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            
+        }
 
-<!--
-	Name: Jayden Ramcharan
-	File: Assignment1.html
-	Date: 2025 May 13
-	A very brief description of the file.
-	-->
-<style>
-body {
-  max-width: 800px;
-  margin: 0 auto;
-}
+        .sender-column {
+            text-align: right;
+        }
 
-.sender-column {
-  text-align: right;
-}
+        h1 {
+            font-size: 1.5em;
+        }
 
-h1 {
-  font-size: 1.5em;
-}
+        h2 {
+            font-size: 1.3em;
+        }
 
-h2 {
-  font-size: 1.3em;
-}
+        p, ul, ol, dl, address {
+            font-size: 1.1em;
+        }
 
-p,ul,ol,dl,address {
-  font-size: 1.1em;
-}
+        p, li, dd, dt, address {
+            line-height: 1.5;
+        }
 
-p, li, dd, dt, address {
-  line-height: 1.5;
-}
-
-
-</style>
-
+        .dotted-underline {
+            border-bottom: 1px dotted;
+            text-decoration: none; /* Ensure no default underline interferes */
+            display: inline-block; /* Helps with padding-bottom if needed */
+            padding-bottom: 1px; /* Small padding for better visual separation */
+        }
+    </style>
 </head>
 <body>
-<sender-column> <strong>Dr.Eleanor Gaye</strong><br>
+    <address class="sender-column">
+        <strong>Dr.Eleanor Gaye</strong><br>
+        Awesome Science faculty<br>
+        University of Awesome<br>
+        Bobtown, CA 99999,<br>
+        USA<br>
+        <strong>Tel:</strong> 123-456-7890 <br>
+        <strong>Email:</strong> no_reply@example.com<br>
+    </address>
+    <p class="sender-column" >20 January 2016</p>
 
-  Awesome Science faculty<br>
-  University of Awesome<br>
-  Bobtown, CA 99999,<br>
-  USA<br>
-  <strong>Tel:</strong> 123-456-7890 <br>
-  <strong>Email:</strong> no_reply@example.com<br>
-  <br>
-  20 January 2016
-</sender-column>
+    <p><i><strong>Miss Eileen Dover</strong></i></p>
+    <address>4321 Cliff Top Edge</address>
+    <address>Dover, CT9 XXX</address>
+    <address>UK</address>
 
+    <h1><strong>Re: Eileen Dover university application</strong></h1>
 
+    <p>Dear, Eileen</p>
 
-  <p><i><strong>Miss Eileen Dover</strong></i></p>
-<address>4321 Cliff Top Edge</address>
-<address>Dover, CT9 XXX</address>
-<address>UK</address>
+    <p>Thank you for your recent application to join us at the University of Awesome's science facility to study as part </p>
+    <p>of you PhD next year. I will awnser your questions one by one, in the following sections.</p>
 
-  <h1><strong>Re: Eileen Dover university application</strong></h1>
+    <h2><strong>Starting dates</strong></h2>
+    <p>We are happy to accommodate you starting your study with us at any time, however it would suit us better if you</p>
+    <p>could start at the beginning of a semester; the start dates for each one are as follows:</p>
 
-<p>Dear, Eileen</p>
-
-<p>Thank you for your recent application to join us at the University of Awesome's science facility to study as part </p>
-<p>of you PhD next year. I will awnser your questions one by one, in the following sections.</p>
-
-<h2><strong>Starting dates</strong></h2>
-<p>We are happy to accommodate you starting your study with us at any time, however it would suit us better if you</p>
-<p>could start at the beginning of a semester; the start dates for each one are as follows:</p>
-
-<ul>
+    <ul>
         <li>First semester: 9 September 2016</li>
         <li>Second semester: 15 January 2017</li>
         <li>Third semester: 2 May 2017</li>
     </ul>
     <p>Please let me know if this is ok, and if so which date would you prefer.</p>
 
-    <p> You can find more information about important university dates on our website</p>
+    <p> You can find more information about <a href="#">important university dates</a> on our website</p>
     <h3>Subjects of study</h3>
     <p>At the Awesome Science Faculty, we have a pretty open-minded research facility - as long as the subjects fall</p>
     <p>somewhere in the realm of science and technology. You seem like an intelligent, dedicated researcher, and just</p>
@@ -84,19 +87,19 @@ p, li, dd, dt, address {
     <p>by are as follows, in order of priority:</p>
 
     <ol>
-<li>Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>). </li>
+        <li>Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>). </li>
 
-<li>Measuring the effect on preformance of funk bassplayers at tempatures exceeding 30&deg;C (86&deg;F) when the 
-  audience size exponentially increases (effect of 3 x 10<sup>3</sup>increasing to 3 x 10<sup>4</sup>.)</li>
+        <li>Measuring the effect on preformance of funk bassplayers at tempatures exceeding 30&deg;C (86&deg;F) when the
+        audience size exponentially increases (effect of 3 &times; 10<sup>3</sup> increasing to 3 &times; 10<sup>4</sup>.)</li>
 
-  <li>HTML and CSS constructs for representing musical scores.</li>
+        <li><span class="dotted-underline">HTML</span> and <span class="dotted-underline">CSS</span> constructs for representing musical scores.</li>
 
     </ol>
 
     <p>So please can you provide more information on each of these subjects, inclluding how long you'd expect the</p>
     <p>research to take, required staff and other resources, and anything else you think we'd need to know? Thanks.</p>
 
-    <h4>Exotic dance moves</h4>
+    <h3>Exotic dance moves</h3>
 
     <p>Yes, you are right! As part of my post doctorate work, I <i>did</i> study exotic tribal dances. To awnser your question, </p>
     <p>my favourite dances are as follows, with definitions</p>
@@ -115,16 +118,15 @@ p, li, dd, dt, address {
     <dd>of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this</dd>
     <dd>because they were really cold</dd>
 
-    <p>for more of my research, see my exotic dance research page</p>
-    
+    <p>for more of my research, <a href="#">see my exotic dance research page </a></p>
+
     <p>Yours sincerely,</p>
 
     <p>Dr Eleanor Gaye</p>
 
     <p>University of Awesome motto: "Be awesome to each other." -- <i>The memoirs of Bill S Preston, Esq</i></p>
-    
 
 </body>
-  
-
 </html>
+
+
