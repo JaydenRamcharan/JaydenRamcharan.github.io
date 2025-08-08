@@ -1,3 +1,10 @@
+//  Name: Jayden Ramcharan
+// File: Main.js
+ // Date: 2025 August 7
+//A test website for learning how to improve accessibility
+
+
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
