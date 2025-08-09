@@ -1,3 +1,15 @@
+
+	//Name: Jayden Ramcharan
+	//File: index.html
+	//Date: 9th August 2025
+	//A Java website dedicated to bouncy balls
+	
+
+
+
+
+
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");
