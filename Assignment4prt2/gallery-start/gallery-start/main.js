@@ -49,4 +49,3 @@ displayedImage.src = e.target.src;
 displayedImage.alt = e.target.alt;});
  }
 /* Wiring up the Darken/Lighten button */
- btn.addEventListener('click', () => )
