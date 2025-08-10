@@ -79,7 +79,7 @@ class Ball {
     }
   }
 }
-
+hi
 window.addEventListener("keydown", (e) => {
   switch (e.key) {
     case "a":
